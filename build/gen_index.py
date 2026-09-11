@@ -245,7 +245,7 @@ HTML = f"""{head("Studio Gisele Quintino | Cabelo, Beleza e Bem-Estar em São Jo
       <p>À frente do Studio está Gisele Quintino, profissional com mais de 20 anos de experiência no mercado da beleza e uma trajetória construída também na educação de cabeleireiros no Brasil e no exterior.</p>
       <div class="stats-row">
         <div class="stat"><b>20+</b><span>Anos de experiência</span></div>
-        <div class="stat"><b>8 mil+</b><span>Seguidores no Instagram</span></div>
+        <div class="stat"><b>200 mil+</b><span>Seguidores no Instagram</span></div>
       </div>
       <div class="signature">Gisele Quintino</div>
     </div>
