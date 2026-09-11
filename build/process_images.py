@@ -35,12 +35,13 @@ def to_b64(path, max_side, quality, crop_ratio=None, top_bias=0.5):
 
 IMAGES = {}
 
-# Perfil 571...: retrato de evento, terno azul-serenity, editorial — pro hero.
-# Perfil 607...: foto de equipe no Studio (parede com logo em madeira) — pro "sobre".
-PERFIL_HERO = os.path.join(FOTOS, "perfil", "saveclip.app-571749694-18364854922153933-1884547118609498220-n.jpg")
-PERFIL_SOBRE = os.path.join(FOTOS, "perfil", "saveclip.app-607649641-18423654595114826-8053701832904481713-n.jpg")
-IMAGES["perfil_hero"] = to_b64(PERFIL_HERO, 820, 80, crop_ratio=4 / 5, top_bias=0.08)
-IMAGES["perfil_sobre"] = to_b64(PERFIL_SOBRE, 860, 80, crop_ratio=4 / 5, top_bias=0.02)
+# Fotos novas trocadas pela Carla em 2026-09-11 (substituem as antigas):
+# 1.jpg: foto de equipe no Studio (parede com logo em madeira) — pro hero.
+# 2.jpg: retrato de evento, terno azul-serenity, editorial — pro "sobre".
+PERFIL_HERO = os.path.join(FOTOS, "perfil", "1.jpg")
+PERFIL_SOBRE = os.path.join(FOTOS, "perfil", "2.jpg")
+IMAGES["perfil_hero"] = to_b64(PERFIL_HERO, 820, 80, crop_ratio=4 / 5, top_bias=0.04)
+IMAGES["perfil_sobre"] = to_b64(PERFIL_SOBRE, 860, 80, crop_ratio=4 / 5, top_bias=0.06)
 
 # Galeria: 8 resultados reais (mechas, corte, sobrancelha, unha)
 TRABALHOS = os.path.join(FOTOS, "trabalhos")

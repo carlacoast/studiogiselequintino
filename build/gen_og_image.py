@@ -2,7 +2,7 @@ import os
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-HERO = os.path.join(SITE, "fotos", "perfil", "saveclip.app-571749694-18364854922153933-1884547118609498220-n.jpg")
+HERO = os.path.join(SITE, "fotos", "perfil", "2.jpg")
 
 W, H = 1200, 630
 SPLIT = 760

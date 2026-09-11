@@ -51,7 +51,7 @@ SERVICOS = [
 ]
 
 CSS = """
-.servicos{padding:88px 0; background:var(--white);}
+.servicos{padding:88px 0; background:var(--porcelain);}
 .servicos .head{max-width:640px; margin-bottom:48px;}
 .servicos .head h2{font-size:clamp(26px,3vw,36px);}
 .servicos-grid{display:grid; grid-template-columns:1fr 1fr; gap:22px;}
